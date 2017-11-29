@@ -1,0 +1,222 @@
+#INDEX{background:rgb(0,0,0);}
+#bcon{background:url("../img/imagem9.jpg"); }
+#bgaleria{background:url("../img/imagem31.jpg");}
+#bquem{background:url("../img/imagem30.jpg");}
+#bsug{background:url("../img/imagem28.jpg");}
+
+.principal{
+          background:#FFFFFF;
+          border-radius: 10px;
+          height:auto;
+          width:1020px;
+          margin:80px auto 5px auto;/*espaçamento externo*/
+          padding: 5px 25px;
+}/*Formatação para a pag. principal do site*/
+
+.principal p{font-size: 20px;}
+
+.titulo{
+      background: url("../img/imagem29.jpg")/*rgb(255,182,193)*/;
+      border:0.5px black solid;
+      width: 850px;
+      height:150px;
+      margin:2px auto;
+      padding:auto;
+}/*div do titulo*/
+
+#img-index{
+          background:url("../img/imagem29.jpg");
+          border: solid 1px black;
+          height:780px;
+          width:100%;
+          margin:0 auto;/*espaçamento externo*/
+          padding: 5px 25px;
+                }/*Formatação para a imagem do index*/
+
+#aparecida{color: white;
+          font-size: 100px;
+          transition: background 10s;
+          text-shadow: 10px 5px 25px #e8e3e3;
+}/*Titulo da primeira postagem do index*/
+
+#aparecida:hover{color: rgba(246, 15, 15, 0.86);
+                transition: background 2s;
+}
+
+#text-princ{background:rgba(255, 255, 255, 0);
+            height:auto;
+            width:65%;
+            margin: 0px auto;/*espaçamento externo*/
+            padding: 10px 25px;
+}/*div do texto da pag. principal*/
+
+#text-princ p{
+  color:#fff;
+  font-size: 25px;
+}
+
+#entret{color:#fff;
+}
+
+#tabela{background:rgba(250,250,250,0.3);
+            height:auto;
+            width:850px;
+            margin: 0px auto;/*espaçamento externo*/
+            box-shadow: 10px 5px 10px #ffff, -10px -5px 15px #fff;
+}/*Div da tabela de curiosidades*/
+
+a{color: rgb(36, 191, 240);
+}
+
+.mfixo a:hover{background: rgba(242, 27, 13, 0.79);
+}
+
+.mfixo{position: fixed;
+      left: 0;
+      width: 100%;
+      padding: 0px 10px;
+}
+
+#t{font-size: 60px;
+   text-align: center;
+}/*titulo do site*/
+
+#area{width: 80%;
+      margin: 0 auto;
+}
+
+#navegacao{background: #fff;
+          border-bottom: 1px solid #d8d8d8;
+          height: 70px;
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+}
+
+#logo{float: left;
+}
+
+#dire{ float: right;
+      margin-top: 20px;
+      padding: 10px 0 10px 0;
+}/*menu fixo*/
+
+#sugestoes{display:block;
+           float:center;
+           background:rgba(250,250,250,0.3);
+           height:auto;
+           width:100%;
+           margin: 10px auto 0px auto;/*espaçamento externo*/
+           padding: 0px 25%;
+          border-bottom: 0px;
+}
+
+li a{
+  color: rgb(52, 126, 167);
+}
+
+.marie{color:red;
+}
+.postado-por{
+            padding-left: 5px;
+            display: block;
+            margin-top: 10px;}
+
+.galeria-foto{
+  background: #ffffff;
+  width:265px;
+  height:200px;
+  float:left;
+  margin:20px;
+  padding: 10 auto;
+  border-radius: 20px;
+} /*formatção das divs da galeria*/
+
+#dow{text-shadow: 10px 5px 5px black;
+}/*formatação do texto da galeria*/
+
+.img-galeria{width:265px;
+             height:200px;
+             border-radius: 20px;
+}/*tamanho das imagens da galeria*/
+
+a{text-decoration: none;
+}
+
+p{text-align:justify;
+}
+
+#musicas{border: double 1px #DA70D6;
+        height: auto;
+        width: 400px;
+}/*div de sugestão de musicas*/
+
+#pconsagracao{text-align:left;
+}/*paragrafo do texto Consagração justificado*/
+
+IMG.displayed, Iframe.displayed {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+} /*imagem do rosario, */
+
+.center{text-align: center;
+}/*centralizar todos os textos necessarios*/
+
+.video-index{margin: 60px 15px;
+             box-shadow: 10px 5px 15px #ffff, -10px -5px 25px #ffff;
+             float:left;
+}/*Videos da pagina principal*/
+
+#video-container{width: 100%;
+                height: 340px;
+                position: relative;
+                margin:20px;
+                padding: 0px 40px;
+}
+
+#form-quemsomos{
+    height: 450px;
+    width: 420px;
+    background-color:#EEEEE0;
+    margin:20px 50px 20px 240px ;
+    padding: 20px;
+    box-shadow: 10px 5px 15px #FFFFF0, -10px -5px 25px #CDCDC1 ;
+    display: block;
+    float: left;}/*formulario de quem somos*/
+
+#form-Doe{
+        height:450px;
+        width: 400px;
+        background-color:#EEEEE0;
+        margin:20px 250px 20px 20px;
+        padding: 20px;
+        box-shadow: 10px 5px 15px #FFFFF0, -10px -5px 25px #CDCDC1 ;
+        display: block;
+        float:right;
+}/*formulario de doações*/
+
+#img-quemsomos{display: block;
+              height:300px;
+              float:left;
+              margin: 10px;
+}/*Imagem do Quem Somos*/
+
+#quemsomos{text-align: justify;
+          font-size: 22px;
+          font-family: times;
+}/*Texto quem somos*/
+
+fieldset{border-radius: 5px;
+}
+
+input:hover{
+           background: #FFE1FF;
+}/* hover, ao passar o cursor em cima o item recebe a formatação*/
+
+input:focus, textarea:focus{background:#FFC1C1;
+} /*ao clicar, o item recebe a formatação*/
+
+legend{text-shadow: 10px 4px 3px black;
+}

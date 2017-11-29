@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8"/>
+  <title>QUEM SOMOS</title>
+  <!-- Descrição do site -->
+  <meta name="description" content="Maria,totus Tuus Marie">
+  <!-- Palavras chaves do site -->
+  <meta name="keywords" content="Consagração, Nossa Senhora,Virgem Maria, Rosário">
+  <!-- Autor do site -->
+  <meta name="author" content=" Amanda Gonçalves Simões">
+  <link rel="stylesheet" type="text/css" href="css/formatar.css">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body id="bquem">
+  <div id="navegacao">
+       <div id="area">
+          <h1 id="logo"><span class="marie"> Totus Tuus Mariae</span></h1>
+           <div id="dire">
+           |<a href="index.html">PÁGINA INICIAL </a>
+           |<a href="consagracao.html">CONSAGRAÇÃO </a>
+           |<a href="rosario.html">ROSÁRIO </a>
+           |<a href="galeria.html">GALERIA </a>
+           |<a href="quemsomos.html"> QUEM SOMOS </a>|
+           </div>
+        </div>
+   </div>
+   <div class="principal">
+          <h1 class="center">Quem Somos?</h1>
+          <img src="img/imagem34.jpg" id="img-quemsomos">
+          <p id="quemsomos">  O projeto para o site Totus Tuus Mariae surge com o intuito de trazer postagens semanais para os amantes da Virgem Santissíma, na
+            imagem de Nossa Senhora Aparecida. Eu, Amanda Gonçalves, católica apostólica romana e consagrada pelo método de São Luís M. G. sou a idealizadora
+            desse projeto, aluna do ensino médio no IFNMG- Campus Avançado Janaúba, desde que me conheço por gente, apaixonada por
+            poesia e flores, paulista com o coração mineiro.<br/><br/>
+                "Antes de tudo, a verdadeira devoção à Santíssima Virgem é interior, isto é, parte do espírito e do coração. Vem da estima em que se tem a Santíssima
+            Virgem. Da alta idéia que se formou de suas grandezas, e do amor que se lhe consagra.
+            Em segundo lugar é terna, quer dizer cheia de confiança na Santíssima Virgem, da confiança de um filho em sua mãe. Impele uma alma a recorrer a ela em todas
+            as necessidades do corpo e do espírito, com extremos de simplicidade, de confiança e de ternura;
+            ela implora o auxílio de sua boa Mãe em todo o tempo, em todo lugar, em todas as coisas: em suas dúvidas, para ser esclarecida; em seus erros, para se corrigir; nas tentações, para ser sustentada; em suas fraquezas, para ser fortificada; em suas quedas,
+            para ser levantada; em seus abatimentos, para ser encorajada; em seus escrúpulos, para ficar livre deles; em suas cruzes, trabalhos e reveses da vida, para ser consolada. Em todos os males do corpo e do espírito, enfim, Maria é o refúgio, e não há receio
+            de importunar esta boa Mãe e desagradar a Jesus Cristo." <b>(Trechos do livro: O Tratado da Verdadeira Devoção à Santíssima Virgem - de São Luís de Montfort)</b><br/><br/>
+
+
+          </p>
+    </div>
+
+    <div id="form-quemsomos">
+      <form method="" action="">
+      <fieldset>
+          <legend>Cadastro</legend>
+          <label for="nome">Digite seu nome:</label>
+          <input type="text" name="nome" maxlength="30" size="30" id="nome" autofocus="" required=""/><br/><br/><!--Autofocus, foca a entrada de elementos
+                                                                                                                  required, item obrigatorio-->
+          <label>digite seu email:</label>
+          <input type="email" name="email" size="30" required=""/><br/><br/>
+          <label for="d">Mês e ano de inscrição</label>
+          <input type="month" id="d" name="validade"/><br/><br/><!--utilizado para obter apenas o mês e o ano-->
+          <label for="celular">Telefone:</label>
+          <input type= "tel" name="celular" id="celular" size="13" maxlength="13"  placeholder="(0**)99999999"/><br/><br/>
+       </fieldset>
+
+       <label for="opiniao">Digite sua opiniao:</label></br>
+       <textarea name="opiniao" id="opiniao" rows="5" cols="35"></textarea><br/>
+
+       <input type="checkbox" id="aceito" name="contrato" value="sim" checked="">
+       <label for="aceito">Concordo em receber notificações sobre as postagens<label><br/>
+       <input type ="submit" value ="Enviar">
+    </form>
+
+  </div>
+
+  <div id="form-Doe">
+    <form method="" action="" >
+      <fieldset>
+      <legend> Faça sua doação </legend>
+         <label>Valor da Doação:</label>
+         <input type="number" name="doa" id="doa" max="10000000" min="0" step="1" /><br/><br/>
+         <label for="nome">Digite seu nome:</label>
+         <input type="text" name="nome" size="30" id="nome" autofocus="" required=""/><br/><br/>
+         <label for="celular">Celular para receber código:</label>
+         <input type= "tel" name="celular" id="celular" size="13" maxlength="13"  placeholder="(038)99999999"/><br/><br/>
+         <label for="conta">Conta para Tranferência:</label>
+         <input type="text" name="conta" id="conta" size="16" maxlength="16"  placeholder="Coloque sua conta"/><br/><br/>
+         <label for="senha">Informe código de Transferência:</label>
+         <input type="password" name="senha" id="senha" size="10" maxlength="8"  placeholder="código"/><br/><br/>
+         <label>Qual o destino de sua doação?</label><br/>
+         <input type= "radio" name="site" value="sim" id="site">
+         <label for="site"> Para o site</label><br/>
+         <input type= "radio" name="site" value="sim" id="caridade">
+         <label for="caridade"> Instituição social ligada ao site</label><br/><br/>
+      </fieldset></br>
+      <input type ="submit" value ="Enviar">
+      <input type = "reset" value = "Limpar o formulario">
+    </form>
+
+  </div>
+</body>
+
+</html>
