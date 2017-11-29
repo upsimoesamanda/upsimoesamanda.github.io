@@ -1,8 +1,19 @@
-#INDEX{background:rgb(0,0,0);}
-#bcon{background:url("../img/imagem9.jpg"); }
-#bgaleria{background:url("../img/imagem31.jpg");}
-#bquem{background:url("../img/imagem30.jpg");}
-#bsug{background:url("../img/imagem28.jpg");}
+#INDEX{background:rgb(0,0,0);
+}
+
+#bcon{background:url("../img/imagem9.jpg");
+}
+
+#bgaleria{background:url("../img/imagem31.jpg");
+}
+
+#bquem{background:url("../img/imagem30.jpg");
+        background-size: 100%;
+}
+
+#bsug{background:url("../img/imagem28.jpg");
+      background-size: 100%;
+}
 
 .principal{
           background:#FFFFFF;
@@ -13,7 +24,9 @@
           padding: 5px 25px;
 }/*Formatação para a pag. principal do site*/
 
-.principal p{font-size: 20px;}
+.principal p{font-size: 23px;
+            font-family:times;
+}
 
 .titulo{
       background: url("../img/imagem29.jpg")/*rgb(255,182,193)*/;
@@ -31,7 +44,7 @@
           width:100%;
           margin:0 auto;/*espaçamento externo*/
           padding: 5px 25px;
-                }/*Formatação para a imagem do index*/
+}/*Formatação para a imagem do index*/
 
 #aparecida{color: white;
           font-size: 100px;
@@ -51,9 +64,11 @@
 }/*div do texto da pag. principal*/
 
 #text-princ p{
-  color:#fff;
-  font-size: 25px;
-}
+              color:#fff;
+              font-size: 25px;
+              font-family: cursive,serif,arial;
+}/*texto da pagina principal*/
+
 
 #entret{color:#fff;
 }
@@ -71,11 +86,6 @@ a{color: rgb(36, 191, 240);
 .mfixo a:hover{background: rgba(242, 27, 13, 0.79);
 }
 
-.mfixo{position: fixed;
-      left: 0;
-      width: 100%;
-      padding: 0px 10px;
-}
 
 #t{font-size: 60px;
    text-align: center;
@@ -118,10 +128,12 @@ li a{
 
 .marie{color:red;
 }
+
 .postado-por{
             padding-left: 5px;
             display: block;
-            margin-top: 10px;}
+            margin-top: 10px;
+}
 
 .galeria-foto{
   background: #ffffff;
@@ -144,7 +156,10 @@ li a{
 a{text-decoration: none;
 }
 
+a:active{color:#000;}/*links visitados*/
+
 p{text-align:justify;
+  text-indent: 25px;
 }
 
 #musicas{border: double 1px #DA70D6;
